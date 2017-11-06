@@ -1,0 +1,72 @@
+
+<!--
+	renderbox2 - a physically based gpu renderer for research purposes
+    Copyright (C) - 2014 - Srinath Ravichandran
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<!-- Config File Version 2.0 -->
+
+<config>
+	<directories>
+		<output>..\output\</output>
+		<scenefilepath>C:\Users\Srinath\Research\model_data\scenes\cornell_box\</scenefilepath>
+	</directories>
+
+	<!--  Flags are global overrides for the application -->
+	<flags>
+		<render>yes</render>   								<!-- Possible values : yes/no - Should the application perform rendering? -->
+		<gui>no</gui>
+	</flags>
+	
+	<output>
+		<width>800</width>
+		<height>800</height>
+		<file>test_dl.jpg</file>
+	</output>
+	
+	<scene>
+		<!-- A scene will have a camera, meshes, materials and lights -->
+		<!-- The scene file will indicate what meshes to load, and what are the materials for each object within the scene -->
+		<file>cornell_box_cubes.xml</file>
+	
+		<!-- A scene will have one complete bvh that encapsulates all required information. -->
+		<cudabvh>
+			<file>cornell_box_cubes.bvh</file>				<!-- Indicate the name of the cuda file to be loaded/saved -->
+			<build>yes</build>						    	<!-- builds a cuda bvh file : yes/no flag - If build is false, then the cuda file is loaded for the current mesh -->
+		</cudabvh>
+	</scene>
+
+	<renderer>
+		<type>samplerrenderer</type>
+		<params>
+			<mode>final</mode> 						 			<!-- Indicates which mode to run the application in : Final (use a tile based system for final rendering) or use a progressive with the samples upgraded after each iteration -->
+			<spp>50</spp>
+			<iterations>1</iterations> 							<!-- Indicates how many iterations of the rendering is supposed to be run -->
+			<filter>
+				<params>
+					<type>box</type>
+					<xwidth>0.5</xwidth>
+					<ywidth>0.5</ywidth>
+				</params>
+			</filter>											<!-- Type of filter to use for the final image -->
+		</params>
+	</renderer>
+	
+	<integrator>
+		<file>integrator_pt.xml</file> 					<!-- All integrators in renderbox2 have their own config files. Clean usage -->
+	</integrator>
+
+</config>

@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="renderbox2.licenseheader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\3rdparty\argvparser\argvparser.h" />
+    <ClInclude Include="..\src\3rdparty\jpeg\jpeg.h" />
+    <ClInclude Include="..\src\3rdparty\miniexr\miniexr.h" />
+    <ClInclude Include="..\src\3rdparty\stb\stb_image.h" />
+    <ClInclude Include="..\src\3rdparty\stb\stb_image_resize.h" />
+    <ClInclude Include="..\src\3rdparty\stb\stb_image_write.h" />
+    <ClInclude Include="..\src\3rdparty\tinyobjloader\tiny_obj_loader.h" />
+    <ClInclude Include="..\src\3rdparty\tinyxml2\tinyxml2.h" />
+    <ClInclude Include="..\src\accelerators\sbvh\bvh.h" />
+    <ClInclude Include="..\src\accelerators\sbvh\bvhnode.h" />
+    <ClInclude Include="..\src\accelerators\sbvh\cudabvh.h" />
+    <ClInclude Include="..\src\accelerators\sbvh\cudatracer.h" />
+    <ClInclude Include="..\src\accelerators\sbvh\cudatracerkernels.h" />
+    <ClInclude Include="..\src\accelerators\sbvh\fermi_speculative_while_while.h" />
+    <ClInclude Include="..\src\accelerators\sbvh\kepler_dynamic_fetch.h" />
+    <ClInclude Include="..\src\accelerators\sbvh\platform.h" />
+    <ClInclude Include="..\src\accelerators\sbvh\splitbvhbuilder.h" />
+    <ClInclude Include="..\src\core\application.h" />
+    <ClInclude Include="..\src\core\bsdf.h" />
+    <ClInclude Include="..\src\core\buffer.h" />
+    <ClInclude Include="..\src\core\camera.h" />
+    <ClInclude Include="..\src\core\defs.h" />
+    <ClInclude Include="..\src\core\diffgeom.h" />
+    <ClInclude Include="..\src\core\film.h" />
+    <ClInclude Include="..\src\core\filter.h" />
+    <ClInclude Include="..\src\core\globaltypes.h" />
+    <ClInclude Include="..\src\core\integrator.h" />
+    <ClInclude Include="..\src\core\intersection.h" />
+    <ClInclude Include="..\src\core\lights.h" />
+    <ClInclude Include="..\src\core\material.h" />
+    <ClInclude Include="..\src\core\mesh.h" />
+    <ClInclude Include="..\src\core\montecarlo.h" />
+    <ClInclude Include="..\src\core\params.h" />
+    <ClInclude Include="..\src\core\primitives.h" />
+    <ClInclude Include="..\src\core\reflection.h" />
+    <ClInclude Include="..\src\core\renderer.h" />
+    <ClInclude Include="..\src\core\samplers.h" />
+    <ClInclude Include="..\src\core\scene.h" />
+    <ClInclude Include="..\src\core\timer.h" />
+    <ClInclude Include="..\src\core\transform.h" />
+    <ClInclude Include="..\src\core\util.h" />
+    <ClInclude Include="..\src\integrators\integrator_ao.h" />
+    <ClInclude Include="..\src\integrators\integrator_bdpt_lvc.h" />
+    <ClInclude Include="..\src\integrators\integrator_path.h" />
+    <ClInclude Include="..\src\integrators\integrator_raycast.h" />
+    <ClInclude Include="..\src\io\customfilereader.h" />
+    <ClInclude Include="..\src\io\imagewriter.h" />
+    <ClInclude Include="..\src\io\objfilereader.h" />
+    <ClInclude Include="..\src\memory\memoryallocator.h" />
+    <ClInclude Include="..\src\renderbox2.h" />
+    <ClInclude Include="..\src\renderers\samplerrenderer.h" />
+    <ClInclude Include="..\src\util\configuration.h" />
+    <ClInclude Include="..\src\util\logger.h" />
+    <ClInclude Include="..\src\util\cudatimer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\3rdparty\argvparser\argvparser.cpp" />
+    <ClCompile Include="..\src\3rdparty\miniexr\miniexr.cpp" />
+    <ClCompile Include="..\src\3rdparty\tinyobjloader\tiny_obj_loader.cc" />
+    <ClCompile Include="..\src\3rdparty\tinyxml2\tinyxml2.cpp" />
+    <ClCompile Include="..\src\accelerators\sbvh\bvnode.cpp" />
+    <ClCompile Include="..\src\accelerators\sbvh\cudabvh.cpp" />
+    <ClCompile Include="..\src\accelerators\sbvh\splitbvhbuilder.cpp" />
+    <ClCompile Include="..\src\config\configuration.cpp" />
+    <ClCompile Include="..\src\core\application.cpp" />
+    <ClCompile Include="..\src\core\bsdf.cpp" />
+    <ClCompile Include="..\src\core\buffer.cpp" />
+    <ClCompile Include="..\src\core\film.cpp" />
+    <ClCompile Include="..\src\core\intersection.cpp" />
+    <ClCompile Include="..\src\core\mesh.cpp" />
+    <ClCompile Include="..\src\core\scene.cpp" />
+    <ClCompile Include="..\src\integrators\integrator_ao.cpp" />
+    <ClCompile Include="..\src\integrators\integrator_bdpt_lvc.cpp" />
+    <ClCompile Include="..\src\integrators\integrator_path.cpp" />
+    <ClCompile Include="..\src\integrators\integrator_raycast.cpp" />
+    <ClCompile Include="..\src\io\customfilereader.cpp" />
+    <ClCompile Include="..\src\io\imagewriter.cpp" />
+    <ClCompile Include="..\src\io\objfilereader.cpp" />
+    <ClCompile Include="..\src\memory\memoryallocator.cpp" />
+    <ClCompile Include="..\src\renderbox2.cpp" />
+    <ClCompile Include="..\src\renderers\samplerrenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\src\accelerators\sbvh\cudatracer.cu" />
+    <CudaCompile Include="..\src\accelerators\sbvh\cuda_tracer_functions.cu" />
+    <CudaCompile Include="..\src\core\camera.cu" />
+    <CudaCompile Include="..\src\core\integrator.cu" />
+    <CudaCompile Include="..\src\core\lights.cu" />
+    <CudaCompile Include="..\src\core\material.cu" />
+    <CudaCompile Include="..\src\core\montecarlo.cu" />
+    <CudaCompile Include="..\src\core\primitives.cu" />
+    <CudaCompile Include="..\src\core\reflection.cu" />
+    <CudaCompile Include="..\src\core\transform.cu" />
+    <CudaCompile Include="..\src\integrators\integrator_ao.cu" />
+    <CudaCompile Include="..\src\integrators\integrator_bdpt_lvc_sk.cu" />
+    <CudaCompile Include="..\src\integrators\integrator_bdpt_lvc_mk.cu" />
+    <CudaCompile Include="..\src\integrators\integrator_bdpt_lvc_sort.cu" />
+    <CudaCompile Include="..\src\integrators\integrator_path.cu" />
+    <CudaCompile Include="..\src\integrators\integrator_raycast.cu" />
+    <CudaCompile Include="..\src\renderers\samplerrenderer.cu" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{53E5F443-D876-4C1E-989B-B40033F6DED5}</ProjectGuid>
+    <RootNamespace>renderbox2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 7.0.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Srinath\Research\renderbox2\renderbox2\src;$(IncludePath)</IncludePath>
+    <ExecutablePath>C:\Users\Srinath\Research\renderbox2\renderbox2\src;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\Srinath\Research\renderbox2\renderbox2\src;$(IncludePath)</IncludePath>
+    <ExecutablePath>C:\Users\Srinath\Research\renderbox2\renderbox2\src;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Srinath\Research\renderbox2\renderbox2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cudart.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"
+copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;WIN64;_DEBUG;_CONSOLE;USE_KERNEL_KEPLER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Srinath\Research\renderbox2\renderbox2\src;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v6.5\common\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cudart.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;cudadevrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"
+copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+    <CudaCompile>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <CodeGeneration>compute_35,sm_35</CodeGeneration>
+      <GenerateRelocatableDeviceCode>true</GenerateRelocatableDeviceCode>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Srinath\Research\renderbox2\renderbox2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cudart.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"
+copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;WIN64;NDEBUG;_CONSOLE;USE_KERNEL_KEPLER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Srinath\Research\renderbox2\renderbox2\src;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v6.5\common\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cudart.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;cudadevrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"
+copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+    <CudaCompile>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <CodeGeneration>compute_35,sm_35</CodeGeneration>
+      <GenerateRelocatableDeviceCode>true</GenerateRelocatableDeviceCode>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 7.0.targets" />
+  </ImportGroup>
+</Project>

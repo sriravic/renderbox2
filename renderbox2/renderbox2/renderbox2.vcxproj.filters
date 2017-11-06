@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3fd0a5ac-143d-46d6-b2a6-75eb440adaef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{73e10660-8358-41a0-a76a-dade5fe7f61d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{181a6b82-2a2b-465e-9263-61cf2ac57a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\accelerators">
+      <UniqueIdentifier>{21c5447a-76db-4e90-a843-44e132b7c7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\integrators">
+      <UniqueIdentifier>{af98590d-72a0-4d2f-b2de-29415f3b0aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{6123082e-e0e4-41e3-b64d-5d129b9743a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\accelerators">
+      <UniqueIdentifier>{f34fa978-fdd4-4a6d-a354-b4ae1ca0e0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\integrators">
+      <UniqueIdentifier>{b5698b48-5c82-4795-bcb5-f77e1c54f39a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\materials">
+      <UniqueIdentifier>{28a4ddbf-33b4-4301-8522-c7dbdceb7fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\io">
+      <UniqueIdentifier>{9d6392f7-91e7-46a8-89ce-445c1b467cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\io">
+      <UniqueIdentifier>{c0ca506c-eba8-4d77-bee4-02749088aaa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3rdparty">
+      <UniqueIdentifier>{3ef29820-3bd1-4723-9595-2de7025fccd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3rdparty">
+      <UniqueIdentifier>{2868a2bd-5a7f-4272-aa90-c05ab604a0c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\meta">
+      <UniqueIdentifier>{85e18298-9cdd-4b70-a541-43121dcb6c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\meta">
+      <UniqueIdentifier>{1d4699ed-499d-4e56-8814-04113523e32a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\samplers">
+      <UniqueIdentifier>{61efde65-7233-43ba-a8cb-4d579cf18a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\samplers">
+      <UniqueIdentifier>{56441481-593e-4ffc-b8bb-e75100979d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\textures">
+      <UniqueIdentifier>{48189a12-bfb1-4183-bb76-ae369e76d90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\textures">
+      <UniqueIdentifier>{3fbae89c-c5e9-4d81-93be-2555d6451484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{de9ec274-9a25-43f3-bc25-f2c37dcb4734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{48db7105-aea4-4ce5-8521-5ebaffcba40b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3rdparty\miniexr">
+      <UniqueIdentifier>{a96022f8-3d93-4c33-ad97-f25489303381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3rdparty\miniexr">
+      <UniqueIdentifier>{d31905df-58e4-4d4a-a2df-21b08ce4447f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3rdparty\tinyxml2">
+      <UniqueIdentifier>{45514aa5-e23d-4d32-bba4-c17c2ab47f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3rdparty\tinyxml2">
+      <UniqueIdentifier>{c8788bc2-4dad-4bbc-a2c5-56cd70c00800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\accelerators\sbvh">
+      <UniqueIdentifier>{264af219-dc87-4161-82db-e50164441bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\accelerators\sbvh">
+      <UniqueIdentifier>{aa3b890b-8f97-438c-a340-cdbe67c44444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{bed463d7-919c-45cc-89e8-b4d94b0b3248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{58163a91-ce61-498b-980e-cb386de9e744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\memory">
+      <UniqueIdentifier>{a0f0e771-d59e-4803-9495-8bb01e8b335a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\memory">
+      <UniqueIdentifier>{a258e526-db41-4f35-9fff-bc86ecb16616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3rdparty\argvparser">
+      <UniqueIdentifier>{1b19f556-ee18-4529-a75a-f91e02c21837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3rdparty\argvparser">
+      <UniqueIdentifier>{aab29e5c-d738-4205-a38c-b381299bf1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\renderers">
+      <UniqueIdentifier>{06622017-a487-4917-b975-125605b39fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\memory\materials">
+      <UniqueIdentifier>{5f7c77cf-b1d2-4192-af18-4f17bf24013e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3rdparty\tinyojbloader">
+      <UniqueIdentifier>{2d95525f-8ba8-4791-9eeb-8f1040a05e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3rdparty\tinyojbloader">
+      <UniqueIdentifier>{deea2702-491d-4bab-b156-8a62bca37872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderers">
+      <UniqueIdentifier>{1e31413a-d231-4c72-ac7a-a3516fbeecc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3rdparty\stb">
+      <UniqueIdentifier>{0ddc1370-58dc-4a85-b987-f04b5bb189df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3rdparty\jpeg">
+      <UniqueIdentifier>{f456b3b5-a55b-443c-9aef-87cdba5bde06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="renderbox2.licenseheader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\renderbox2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\globaltypes.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\primitives.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\io\customfilereader.h">
+      <Filter>Header Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\filter.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\camera.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\transform.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\scene.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\buffer.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\util.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\defs.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\3rdparty\miniexr\miniexr.h">
+      <Filter>Header Files\3rdparty\miniexr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\3rdparty\tinyxml2\tinyxml2.h">
+      <Filter>Header Files\3rdparty\tinyxml2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\io\imagewriter.h">
+      <Filter>Header Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\params.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\film.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\accelerators\sbvh\bvhnode.h">
+      <Filter>Header Files\accelerators\sbvh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\accelerators\sbvh\platform.h">
+      <Filter>Header Files\accelerators\sbvh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\mesh.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\accelerators\sbvh\bvh.h">
+      <Filter>Header Files\accelerators\sbvh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\accelerators\sbvh\splitbvhbuilder.h">
+      <Filter>Header Files\accelerators\sbvh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\intersection.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\io\objfilereader.h">
+      <Filter>Header Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\diffgeom.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\accelerators\sbvh\cudatracerkernels.h">
+      <Filter>Header Files\accelerators\sbvh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\accelerators\sbvh\cudatracer.h">
+      <Filter>Header Files\accelerators\sbvh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\accelerators\sbvh\cudabvh.h">
+      <Filter>Header Files\accelerators\sbvh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\accelerators\sbvh\fermi_speculative_while_while.h">
+      <Filter>Header Files\accelerators\sbvh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\accelerators\sbvh\kepler_dynamic_fetch.h">
+      <Filter>Header Files\accelerators\sbvh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\timer.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\configuration.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\application.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\memory\memoryallocator.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\logger.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\3rdparty\argvparser\argvparser.h">
+      <Filter>Header Files\3rdparty\argvparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\renderer.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\renderers\samplerrenderer.h">
+      <Filter>Header Files\renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\3rdparty\tinyobjloader\tiny_obj_loader.h">
+      <Filter>Header Files\3rdparty\tinyojbloader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\reflection.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\montecarlo.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\3rdparty\stb\stb_image.h">
+      <Filter>Header Files\3rdparty\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\3rdparty\stb\stb_image_resize.h">
+      <Filter>Header Files\3rdparty\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\3rdparty\stb\stb_image_write.h">
+      <Filter>Header Files\3rdparty\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\integrators\integrator_ao.h">
+      <Filter>Header Files\integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\integrators\integrator_path.h">
+      <Filter>Header Files\integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\integrators\integrator_bdpt_lvc.h">
+      <Filter>Header Files\integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\integrators\integrator_raycast.h">
+      <Filter>Header Files\integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\integrator.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\samplers.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\cudatimer.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\3rdparty\jpeg\jpeg.h">
+      <Filter>Header Files\3rdparty\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\bsdf.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\material.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\lights.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\renderbox2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\io\customfilereader.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\3rdparty\miniexr\miniexr.cpp">
+      <Filter>Source Files\3rdparty\miniexr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\3rdparty\tinyxml2\tinyxml2.cpp">
+      <Filter>Source Files\3rdparty\tinyxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\buffer.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\io\imagewriter.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\io\objfilereader.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\scene.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\accelerators\sbvh\splitbvhbuilder.cpp">
+      <Filter>Source Files\accelerators\sbvh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\accelerators\sbvh\cudabvh.cpp">
+      <Filter>Source Files\accelerators\sbvh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\config\configuration.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\accelerators\sbvh\bvnode.cpp">
+      <Filter>Source Files\accelerators\sbvh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\application.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\memory\memoryallocator.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\3rdparty\argvparser\argvparser.cpp">
+      <Filter>Source Files\3rdparty\argvparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\film.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\3rdparty\tinyobjloader\tiny_obj_loader.cc">
+      <Filter>Source Files\3rdparty\tinyojbloader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\renderers\samplerrenderer.cpp">
+      <Filter>Source Files\renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\integrators\integrator_ao.cpp">
+      <Filter>Source Files\integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\integrators\integrator_raycast.cpp">
+      <Filter>Source Files\integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\integrators\integrator_path.cpp">
+      <Filter>Source Files\integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\integrators\integrator_bdpt_lvc.cpp">
+      <Filter>Source Files\integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\intersection.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\mesh.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\bsdf.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\src\core\transform.cu">
+      <Filter>Source Files\core</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\core\camera.cu">
+      <Filter>Source Files\core</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\core\primitives.cu">
+      <Filter>Source Files\core</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\accelerators\sbvh\cudatracer.cu">
+      <Filter>Source Files\accelerators\sbvh</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\core\montecarlo.cu">
+      <Filter>Source Files\core</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\renderers\samplerrenderer.cu">
+      <Filter>Source Files\renderers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\integrators\integrator_raycast.cu">
+      <Filter>Source Files\integrators</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\integrators\integrator_path.cu">
+      <Filter>Source Files\integrators</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\integrators\integrator_ao.cu">
+      <Filter>Source Files\integrators</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\accelerators\sbvh\cuda_tracer_functions.cu">
+      <Filter>Source Files\accelerators\sbvh</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\core\reflection.cu">
+      <Filter>Source Files\core</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\core\lights.cu">
+      <Filter>Source Files\core</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\core\material.cu">
+      <Filter>Source Files\core</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\core\integrator.cu">
+      <Filter>Source Files\core</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\integrators\integrator_bdpt_lvc_mk.cu">
+      <Filter>Source Files\integrators</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\integrators\integrator_bdpt_lvc_sort.cu">
+      <Filter>Source Files\integrators</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\integrators\integrator_bdpt_lvc_sk.cu">
+      <Filter>Source Files\integrators</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
